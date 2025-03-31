@@ -1,1 +1,24 @@
+# 忽略編譯產物
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+# 忽略 VSCode 設定（可選）
+.vscode/
+
+# 忽略系統檔
 .DS_Store
+Thumbs.db
+
+# 忽略發佈產物（如有）
+out/
+publish/
+
+# 忽略 secrets 或 local app settings（視情況）
+appsettings.Development.json
+
+# 忽略 docker-compose override（如果有的話）
+docker-compose.override.yml
